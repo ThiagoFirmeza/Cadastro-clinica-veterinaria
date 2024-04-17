@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script> 
+</head>
+<body>
+    <div class="formulario">
+        <div class="cabeçalho">
+            <h1>Formulário</h1>
+        </div>
+
+        <div class="lista">
+            <ul>
+                <li>Nome do tutor</li> <br>
+                <li>Nome do cachorro</li> <br>
+                <li>Raça do cachorro</li>   
+            </ul>
+        </div>
+
+        <div class="nomeTutor">
+            <h3>Nome do tutor</h3>
+            <input type="text" id="nomeTutor">
+        </div>
+
+        <div class="nomeCachorro">
+            <h3>Nome do cachorro</h3> 
+            <input type="text" id="nomeCachorro">
+        </div>
+
+        <div class="racaCachorro">
+            <h3>Raça do cachorro</h3>
+            <input type="text" id="racaCachorro">
+        </div>
+
+        <div class="cadastro">
+            <input type="button" onclick="salvarDados()" value="Cadastrar">
+        </div>
+    </div>
+</body>
+</html>
